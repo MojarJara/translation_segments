@@ -1,0 +1,29 @@
+<div id="container">
+  <div id="navigation">
+    <app-navigation></app-navigation>
+  </div>
+  <div id="ts-maincontainer-wrapper">
+    <div id="main-container">
+      <app-mainwindow> </app-mainwindow>
+    </div>
+    <div id="rightside">
+      <div id="r-s-m-container">
+        <div id="r-s-m-c-left">
+          <app-leftsidemenu></app-leftsidemenu>
+        </div>
+        <div id="r-s-m-c-right">
+          <app-rightsidemenu></app-rightsidemenu>
+        </div>
+      </div>
+      <div id="segmentpicker">
+        <app-segmentpicker></app-segmentpicker>
+      </div>
+      <div id="segmenttranslate">
+        <app-segmenttranslate></app-segmenttranslate>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="content">
+  <router-outlet></router-outlet>
+</div>
